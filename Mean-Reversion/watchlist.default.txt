@@ -1,0 +1,3 @@
+# Default universe for mean-reversion / Bollinger scans (comma-separated).
+# Prefer a small, liquid set for long-term/swing workflows. Edit to match your Alpaca watchlist or thesis.
+AAPL, MSFT, NVDA, AMD, TSLA, META, GOOGL, AMZN, SPY, QQQ

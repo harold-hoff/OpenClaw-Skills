@@ -1,0 +1,1420 @@
+[2026-05-01 00:49:47 UTC] === Sentiment cycle start ===
+[2026-05-01 00:49:50 UTC] Equity: $99989.93 | Buying power: $199979.86
+[2026-05-01 00:49:58 UTC] Fear & Greed: 50
+[2026-05-01 00:50:00 UTC] -- AAPL
+[2026-05-01 00:50:08 UTC]   signal=NEUTRAL score=0.5 articles=1
+[2026-05-01 00:50:08 UTC]   SKIP: NEUTRAL signal.
+[2026-05-01 00:50:08 UTC] -- MSFT
+[2026-05-01 00:50:16 UTC]   signal=NEUTRAL score=2.5 articles=5
+[2026-05-01 00:50:16 UTC]   SKIP: NEUTRAL signal.
+[2026-05-01 00:50:16 UTC] -- NVDA
+[2026-05-01 00:50:24 UTC]   signal=NEUTRAL score=2.48 articles=3
+[2026-05-01 00:50:24 UTC]   SKIP: NEUTRAL signal.
+[2026-05-01 00:50:24 UTC] -- AMD
+[2026-05-01 00:50:27 UTC]   signal=NEUTRAL score=3.51 articles=4
+[2026-05-01 00:50:27 UTC]   SKIP: NEUTRAL signal.
+[2026-05-01 00:50:27 UTC] -- TSLA
+[2026-05-01 00:50:34 UTC]   signal=NEUTRAL score=0.0 articles=2
+[2026-05-01 00:50:34 UTC]   SKIP: NEUTRAL signal.
+[2026-05-01 00:50:34 UTC] -- META
+[2026-05-01 00:50:37 UTC]   signal=NEUTRAL score=2.0 articles=5
+[2026-05-01 00:50:37 UTC]   SKIP: NEUTRAL signal.
+[2026-05-01 00:50:37 UTC] -- GOOGL
+[2026-05-01 00:50:44 UTC]   signal=NEUTRAL score=2.0 articles=2
+[2026-05-01 00:50:44 UTC]   SKIP: NEUTRAL signal.
+[2026-05-01 00:50:44 UTC] -- AMZN
+[2026-05-03 14:41:38 UTC] === Sentiment cycle start ===
+[2026-05-03 14:41:43 UTC] Equity: $99989.92 | Buying power: $199979.84
+[2026-05-03 14:41:44 UTC] Fear & Greed: 50
+[2026-05-03 14:41:46 UTC] -- AAPL
+[2026-05-03 14:41:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:47 UTC] -- MSFT
+[2026-05-03 14:41:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:48 UTC] -- NVDA
+[2026-05-03 14:41:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:49 UTC] -- AMD
+[2026-05-03 14:41:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:50 UTC] -- TSLA
+[2026-05-03 14:41:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:50 UTC] -- META
+[2026-05-03 14:41:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:50 UTC] -- GOOGL
+[2026-05-03 14:41:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:51 UTC] -- AMZN
+[2026-05-03 14:41:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:52 UTC] -- SPY
+[2026-05-03 14:41:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:53 UTC] -- QQQ
+[2026-05-03 14:41:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 14:41:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 14:41:54 UTC] === Sentiment cycle complete ===
+[2026-05-03 17:00:10 UTC] === Sentiment cycle start ===
+[2026-05-03 17:00:12 UTC] Equity: $99989.92 | Buying power: $119242.85
+[2026-05-03 17:00:13 UTC] Fear & Greed: 50
+[2026-05-03 17:00:16 UTC] -- AAPL
+[2026-05-03 17:00:17 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:17 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:17 UTC] -- MSFT
+[2026-05-03 17:00:19 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:19 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:19 UTC] -- NVDA
+[2026-05-03 17:00:20 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:20 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:20 UTC] -- AMD
+[2026-05-03 17:00:21 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:21 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:21 UTC] -- TSLA
+[2026-05-03 17:00:22 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:22 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:22 UTC] -- META
+[2026-05-03 17:00:24 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:24 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:24 UTC] -- GOOGL
+[2026-05-03 17:00:24 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:24 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:24 UTC] -- AMZN
+[2026-05-03 17:00:26 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:26 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:26 UTC] -- SPY
+[2026-05-03 17:00:27 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:27 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:27 UTC] -- QQQ
+[2026-05-03 17:00:28 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-03 17:00:28 UTC]   SKIP: NEUTRAL signal.
+[2026-05-03 17:00:28 UTC] === Sentiment cycle complete ===
+[2026-05-04 13:08:46 UTC] === Sentiment cycle start ===
+[2026-05-04 13:08:48 UTC] Equity: $99989.92 | Buying power: $37906.38
+[2026-05-04 13:08:49 UTC] Fear & Greed: 50
+[2026-05-04 13:08:51 UTC] -- AAPL
+[2026-05-04 13:08:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:08:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:08:52 UTC] -- MSFT
+[2026-05-04 13:08:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:08:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:08:53 UTC] -- NVDA
+[2026-05-04 13:08:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:08:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:08:54 UTC] -- AMD
+[2026-05-04 13:08:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:08:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:08:54 UTC] -- TSLA
+[2026-05-04 13:08:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:08:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:08:55 UTC] -- META
+[2026-05-04 13:08:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:08:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:08:56 UTC] -- GOOGL
+[2026-05-04 13:08:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:08:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:08:57 UTC] -- AMZN
+[2026-05-04 13:08:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:08:58 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:08:58 UTC] -- SPY
+[2026-05-04 13:08:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:08:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:08:59 UTC] -- QQQ
+[2026-05-04 13:09:00 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:09:00 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:09:00 UTC] === Sentiment cycle complete ===
+[2026-05-04 13:16:45 UTC] === Sentiment cycle start ===
+[2026-05-04 13:16:48 UTC] Equity: $99989.92 | Buying power: $37935.48
+[2026-05-04 13:16:48 UTC] Fear & Greed: 50
+[2026-05-04 13:16:50 UTC] -- AAPL
+[2026-05-04 13:16:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:51 UTC] -- MSFT
+[2026-05-04 13:16:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:52 UTC] -- NVDA
+[2026-05-04 13:16:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:53 UTC] -- AMD
+[2026-05-04 13:16:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:54 UTC] -- TSLA
+[2026-05-04 13:16:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:54 UTC] -- META
+[2026-05-04 13:16:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:55 UTC] -- GOOGL
+[2026-05-04 13:16:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:56 UTC] -- AMZN
+[2026-05-04 13:16:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:57 UTC] -- SPY
+[2026-05-04 13:16:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:58 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:58 UTC] -- QQQ
+[2026-05-04 13:16:59 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:16:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:16:59 UTC] === Sentiment cycle complete ===
+[2026-05-04 13:23:42 UTC] === Sentiment cycle start ===
+[2026-05-04 13:23:44 UTC] Equity: $99989.92 | Buying power: $38104.58
+[2026-05-04 13:23:45 UTC] Fear & Greed: 50
+[2026-05-04 13:23:47 UTC] -- AAPL
+[2026-05-04 13:23:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:48 UTC] -- MSFT
+[2026-05-04 13:23:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:49 UTC] -- NVDA
+[2026-05-04 13:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:49 UTC] -- AMD
+[2026-05-04 13:23:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:50 UTC] -- TSLA
+[2026-05-04 13:23:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:51 UTC] -- META
+[2026-05-04 13:23:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:52 UTC] -- GOOGL
+[2026-05-04 13:23:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:53 UTC] -- AMZN
+[2026-05-04 13:23:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:54 UTC] -- SPY
+[2026-05-04 13:23:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:55 UTC] -- QQQ
+[2026-05-04 13:23:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:23:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:23:55 UTC] === Sentiment cycle complete ===
+[2026-05-04 13:38:43 UTC] === Sentiment cycle start ===
+[2026-05-04 13:38:45 UTC] Equity: $99738.94 | Buying power: $94756.42
+[2026-05-04 13:38:46 UTC] Fear & Greed: 50
+[2026-05-04 13:38:48 UTC] -- AAPL
+[2026-05-04 13:38:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:49 UTC] -- MSFT
+[2026-05-04 13:38:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:50 UTC] -- NVDA
+[2026-05-04 13:38:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:51 UTC] -- AMD
+[2026-05-04 13:38:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:51 UTC] -- TSLA
+[2026-05-04 13:38:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:52 UTC] -- META
+[2026-05-04 13:38:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:53 UTC] -- GOOGL
+[2026-05-04 13:38:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:54 UTC] -- AMZN
+[2026-05-04 13:38:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:55 UTC] -- SPY
+[2026-05-04 13:38:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:55 UTC] -- QQQ
+[2026-05-04 13:38:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:38:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:38:56 UTC] === Sentiment cycle complete ===
+[2026-05-04 13:53:44 UTC] === Sentiment cycle start ===
+[2026-05-04 13:53:46 UTC] Equity: $100072.64 | Buying power: $95090.12
+[2026-05-04 13:53:47 UTC] Fear & Greed: 50
+[2026-05-04 13:53:49 UTC] -- AAPL
+[2026-05-04 13:53:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:50 UTC] -- MSFT
+[2026-05-04 13:53:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:51 UTC] -- NVDA
+[2026-05-04 13:53:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:52 UTC] -- AMD
+[2026-05-04 13:53:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:52 UTC] -- TSLA
+[2026-05-04 13:53:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:53 UTC] -- META
+[2026-05-04 13:53:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:54 UTC] -- GOOGL
+[2026-05-04 13:53:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:55 UTC] -- AMZN
+[2026-05-04 13:53:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:56 UTC] -- SPY
+[2026-05-04 13:53:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:57 UTC] -- QQQ
+[2026-05-04 13:53:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 13:53:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 13:53:57 UTC] === Sentiment cycle complete ===
+[2026-05-04 14:08:50 UTC] === Sentiment cycle start ===
+[2026-05-04 14:08:52 UTC] Equity: $99956.2 | Buying power: $148185.96
+[2026-05-04 14:08:53 UTC] Fear & Greed: 50
+[2026-05-04 14:08:55 UTC] -- AAPL
+[2026-05-04 14:08:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:08:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:08:56 UTC] -- MSFT
+[2026-05-04 14:08:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:08:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:08:56 UTC] -- NVDA
+[2026-05-04 14:08:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:08:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:08:57 UTC] -- AMD
+[2026-05-04 14:08:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:08:58 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:08:58 UTC] -- TSLA
+[2026-05-04 14:08:59 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:08:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:08:59 UTC] -- META
+[2026-05-04 14:08:59 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:08:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:08:59 UTC] -- GOOGL
+[2026-05-04 14:09:00 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:09:00 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:09:00 UTC] -- AMZN
+[2026-05-04 14:09:01 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:09:01 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:09:01 UTC] -- SPY
+[2026-05-04 14:09:02 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:09:02 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:09:02 UTC] -- QQQ
+[2026-05-04 14:09:03 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:09:03 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:09:03 UTC] === Sentiment cycle complete ===
+[2026-05-04 14:23:43 UTC] === Sentiment cycle start ===
+[2026-05-04 14:23:46 UTC] Equity: $100344.12 | Buying power: $148573.88
+[2026-05-04 14:23:46 UTC] Fear & Greed: 50
+[2026-05-04 14:23:48 UTC] -- AAPL
+[2026-05-04 14:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:49 UTC] -- MSFT
+[2026-05-04 14:23:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:50 UTC] -- NVDA
+[2026-05-04 14:23:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:50 UTC] -- AMD
+[2026-05-04 14:23:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:51 UTC] -- TSLA
+[2026-05-04 14:23:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:52 UTC] -- META
+[2026-05-04 14:23:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:53 UTC] -- GOOGL
+[2026-05-04 14:23:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:54 UTC] -- AMZN
+[2026-05-04 14:23:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:55 UTC] -- SPY
+[2026-05-04 14:23:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:56 UTC] -- QQQ
+[2026-05-04 14:23:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:23:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:23:56 UTC] === Sentiment cycle complete ===
+[2026-05-04 14:38:42 UTC] === Sentiment cycle start ===
+[2026-05-04 14:38:45 UTC] Equity: $100298.52 | Buying power: $147655.11
+[2026-05-04 14:38:45 UTC] Fear & Greed: 50
+[2026-05-04 14:38:47 UTC] -- AAPL
+[2026-05-04 14:38:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:48 UTC] -- MSFT
+[2026-05-04 14:38:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:49 UTC] -- NVDA
+[2026-05-04 14:38:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:50 UTC] -- AMD
+[2026-05-04 14:38:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:51 UTC] -- TSLA
+[2026-05-04 14:38:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:51 UTC] -- META
+[2026-05-04 14:38:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:52 UTC] -- GOOGL
+[2026-05-04 14:38:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:53 UTC] -- AMZN
+[2026-05-04 14:38:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:54 UTC] -- SPY
+[2026-05-04 14:38:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:55 UTC] -- QQQ
+[2026-05-04 14:38:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:38:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:38:56 UTC] === Sentiment cycle complete ===
+[2026-05-04 14:53:42 UTC] === Sentiment cycle start ===
+[2026-05-04 14:53:44 UTC] Equity: $100567.08 | Buying power: $147923.67
+[2026-05-04 14:53:45 UTC] Fear & Greed: 50
+[2026-05-04 14:53:47 UTC] -- AAPL
+[2026-05-04 14:53:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:47 UTC] -- MSFT
+[2026-05-04 14:53:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:48 UTC] -- NVDA
+[2026-05-04 14:53:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:49 UTC] -- AMD
+[2026-05-04 14:53:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:50 UTC] -- TSLA
+[2026-05-04 14:53:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:51 UTC] -- META
+[2026-05-04 14:53:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:51 UTC] -- GOOGL
+[2026-05-04 14:53:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:52 UTC] -- AMZN
+[2026-05-04 14:53:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:53 UTC] -- SPY
+[2026-05-04 14:53:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:54 UTC] -- QQQ
+[2026-05-04 14:53:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 14:53:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 14:53:55 UTC] === Sentiment cycle complete ===
+[2026-05-04 15:10:06 UTC] === Sentiment cycle start ===
+[2026-05-04 15:10:08 UTC] Equity: $100243.87 | Buying power: $147600.46
+[2026-05-04 15:10:09 UTC] Fear & Greed: 50
+[2026-05-04 15:10:11 UTC] -- AAPL
+[2026-05-04 15:10:12 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:12 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:12 UTC] -- MSFT
+[2026-05-04 15:10:13 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:13 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:13 UTC] -- NVDA
+[2026-05-04 15:10:14 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:14 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:14 UTC] -- AMD
+[2026-05-04 15:10:14 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:14 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:14 UTC] -- TSLA
+[2026-05-04 15:10:15 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:15 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:15 UTC] -- META
+[2026-05-04 15:10:16 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:16 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:16 UTC] -- GOOGL
+[2026-05-04 15:10:17 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:17 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:17 UTC] -- AMZN
+[2026-05-04 15:10:18 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:18 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:18 UTC] -- SPY
+[2026-05-04 15:10:19 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:19 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:19 UTC] -- QQQ
+[2026-05-04 15:10:20 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:10:20 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:10:20 UTC] === Sentiment cycle complete ===
+[2026-05-04 15:23:42 UTC] === Sentiment cycle start ===
+[2026-05-04 15:23:44 UTC] Equity: $99913.24 | Buying power: $147269.83
+[2026-05-04 15:23:45 UTC] Fear & Greed: 50
+[2026-05-04 15:23:47 UTC] -- AAPL
+[2026-05-04 15:23:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:48 UTC] -- MSFT
+[2026-05-04 15:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:49 UTC] -- NVDA
+[2026-05-04 15:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:49 UTC] -- AMD
+[2026-05-04 15:23:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:50 UTC] -- TSLA
+[2026-05-04 15:23:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:51 UTC] -- META
+[2026-05-04 15:23:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:52 UTC] -- GOOGL
+[2026-05-04 15:23:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:53 UTC] -- AMZN
+[2026-05-04 15:23:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:54 UTC] -- SPY
+[2026-05-04 15:23:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:55 UTC] -- QQQ
+[2026-05-04 15:23:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:23:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:23:55 UTC] === Sentiment cycle complete ===
+[2026-05-04 15:38:52 UTC] === Sentiment cycle start ===
+[2026-05-04 15:38:54 UTC] Equity: $99921.82 | Buying power: $156542.34
+[2026-05-04 15:38:55 UTC] Fear & Greed: 50
+[2026-05-04 15:38:57 UTC] -- AAPL
+[2026-05-04 15:38:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:38:58 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:38:58 UTC] -- MSFT
+[2026-05-04 15:38:59 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:38:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:38:59 UTC] -- NVDA
+[2026-05-04 15:39:00 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:39:00 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:39:00 UTC] -- AMD
+[2026-05-04 15:39:01 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:39:01 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:39:01 UTC] -- TSLA
+[2026-05-04 15:39:02 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:39:02 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:39:02 UTC] -- META
+[2026-05-04 15:39:02 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:39:02 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:39:03 UTC] -- GOOGL
+[2026-05-04 15:39:03 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:39:03 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:39:03 UTC] -- AMZN
+[2026-05-04 15:39:04 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:39:04 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:39:04 UTC] -- SPY
+[2026-05-04 15:39:05 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:39:05 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:39:05 UTC] -- QQQ
+[2026-05-04 15:39:06 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:39:06 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:39:06 UTC] === Sentiment cycle complete ===
+[2026-05-04 15:53:54 UTC] === Sentiment cycle start ===
+[2026-05-04 15:53:56 UTC] Equity: $100006.57 | Buying power: $156627.09
+[2026-05-04 15:53:57 UTC] Fear & Greed: 50
+[2026-05-04 15:53:59 UTC] -- AAPL
+[2026-05-04 15:54:00 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:00 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:00 UTC] -- MSFT
+[2026-05-04 15:54:01 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:01 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:01 UTC] -- NVDA
+[2026-05-04 15:54:02 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:02 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:02 UTC] -- AMD
+[2026-05-04 15:54:03 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:03 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:03 UTC] -- TSLA
+[2026-05-04 15:54:03 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:03 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:03 UTC] -- META
+[2026-05-04 15:54:04 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:04 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:04 UTC] -- GOOGL
+[2026-05-04 15:54:05 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:05 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:05 UTC] -- AMZN
+[2026-05-04 15:54:06 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:06 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:06 UTC] -- SPY
+[2026-05-04 15:54:07 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:07 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:07 UTC] -- QQQ
+[2026-05-04 15:54:08 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 15:54:08 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 15:54:08 UTC] === Sentiment cycle complete ===
+[2026-05-04 16:08:43 UTC] === Sentiment cycle start ===
+[2026-05-04 16:08:45 UTC] Equity: $99818.17 | Buying power: $123839.67
+[2026-05-04 16:08:46 UTC] Fear & Greed: 50
+[2026-05-04 16:08:48 UTC] -- AAPL
+[2026-05-04 16:08:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:49 UTC] -- MSFT
+[2026-05-04 16:08:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:49 UTC] -- NVDA
+[2026-05-04 16:08:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:50 UTC] -- AMD
+[2026-05-04 16:08:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:51 UTC] -- TSLA
+[2026-05-04 16:08:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:52 UTC] -- META
+[2026-05-04 16:08:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:53 UTC] -- GOOGL
+[2026-05-04 16:08:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:54 UTC] -- AMZN
+[2026-05-04 16:08:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:55 UTC] -- SPY
+[2026-05-04 16:08:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:55 UTC] -- QQQ
+[2026-05-04 16:08:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:08:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:08:56 UTC] === Sentiment cycle complete ===
+[2026-05-04 16:09:04 UTC] === Sentiment cycle start ===
+[2026-05-04 16:09:06 UTC] Equity: $99818.9 | Buying power: $123840.4
+[2026-05-04 16:09:07 UTC] Fear & Greed: 50
+[2026-05-04 16:09:09 UTC] -- AAPL
+[2026-05-04 16:09:10 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:10 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:10 UTC] -- MSFT
+[2026-05-04 16:09:11 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:11 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:11 UTC] -- NVDA
+[2026-05-04 16:09:12 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:12 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:12 UTC] -- AMD
+[2026-05-04 16:09:13 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:13 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:13 UTC] -- TSLA
+[2026-05-04 16:09:14 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:14 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:14 UTC] -- META
+[2026-05-04 16:09:15 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:15 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:15 UTC] -- GOOGL
+[2026-05-04 16:09:15 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:15 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:15 UTC] -- AMZN
+[2026-05-04 16:09:16 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:16 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:16 UTC] -- SPY
+[2026-05-04 16:09:17 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:17 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:17 UTC] -- QQQ
+[2026-05-04 16:09:18 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:09:18 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:09:18 UTC] === Sentiment cycle complete ===
+[2026-05-04 16:23:56 UTC] === Sentiment cycle start ===
+[2026-05-04 16:23:58 UTC] Equity: $99949.07 | Buying power: $123970.57
+[2026-05-04 16:23:59 UTC] Fear & Greed: 50
+[2026-05-04 16:24:00 UTC] -- AAPL
+[2026-05-04 16:24:01 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:01 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:01 UTC] -- MSFT
+[2026-05-04 16:24:02 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:02 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:02 UTC] -- NVDA
+[2026-05-04 16:24:03 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:03 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:03 UTC] -- AMD
+[2026-05-04 16:24:04 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:04 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:04 UTC] -- TSLA
+[2026-05-04 16:24:05 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:05 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:05 UTC] -- META
+[2026-05-04 16:24:06 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:06 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:06 UTC] -- GOOGL
+[2026-05-04 16:24:06 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:06 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:06 UTC] -- AMZN
+[2026-05-04 16:24:07 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:07 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:07 UTC] -- SPY
+[2026-05-04 16:24:08 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:08 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:08 UTC] -- QQQ
+[2026-05-04 16:24:09 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:24:09 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:24:09 UTC] === Sentiment cycle complete ===
+[2026-05-04 16:38:41 UTC] === Sentiment cycle start ===
+[2026-05-04 16:38:43 UTC] Equity: $100062.22 | Buying power: $119837.14
+[2026-05-04 16:38:43 UTC] Fear & Greed: 50
+[2026-05-04 16:38:45 UTC] -- AAPL
+[2026-05-04 16:38:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:46 UTC] -- MSFT
+[2026-05-04 16:38:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:47 UTC] -- NVDA
+[2026-05-04 16:38:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:48 UTC] -- AMD
+[2026-05-04 16:38:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:49 UTC] -- TSLA
+[2026-05-04 16:38:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:49 UTC] -- META
+[2026-05-04 16:38:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:50 UTC] -- GOOGL
+[2026-05-04 16:38:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:51 UTC] -- AMZN
+[2026-05-04 16:38:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:52 UTC] -- SPY
+[2026-05-04 16:38:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:53 UTC] -- QQQ
+[2026-05-04 16:38:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:38:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:38:54 UTC] === Sentiment cycle complete ===
+[2026-05-04 16:53:46 UTC] === Sentiment cycle start ===
+[2026-05-04 16:53:48 UTC] Equity: $100201.14 | Buying power: $119976.06
+[2026-05-04 16:53:49 UTC] Fear & Greed: 50
+[2026-05-04 16:53:51 UTC] -- AAPL
+[2026-05-04 16:53:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:52 UTC] -- MSFT
+[2026-05-04 16:53:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:53 UTC] -- NVDA
+[2026-05-04 16:53:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:54 UTC] -- AMD
+[2026-05-04 16:53:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:55 UTC] -- TSLA
+[2026-05-04 16:53:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:55 UTC] -- META
+[2026-05-04 16:53:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:56 UTC] -- GOOGL
+[2026-05-04 16:53:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:57 UTC] -- AMZN
+[2026-05-04 16:53:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:58 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:58 UTC] -- SPY
+[2026-05-04 16:53:59 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:59 UTC] -- QQQ
+[2026-05-04 16:53:59 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 16:53:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 16:53:59 UTC] === Sentiment cycle complete ===
+[2026-05-04 17:08:40 UTC] === Sentiment cycle start ===
+[2026-05-04 17:08:42 UTC] Equity: $100320.04 | Buying power: $139620.43
+[2026-05-04 17:08:43 UTC] Fear & Greed: 50
+[2026-05-04 17:08:45 UTC] -- AAPL
+[2026-05-04 17:08:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:46 UTC] -- MSFT
+[2026-05-04 17:08:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:46 UTC] -- NVDA
+[2026-05-04 17:08:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:47 UTC] -- AMD
+[2026-05-04 17:08:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:48 UTC] -- TSLA
+[2026-05-04 17:08:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:49 UTC] -- META
+[2026-05-04 17:08:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:50 UTC] -- GOOGL
+[2026-05-04 17:08:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:51 UTC] -- AMZN
+[2026-05-04 17:08:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:51 UTC] -- SPY
+[2026-05-04 17:08:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:52 UTC] -- QQQ
+[2026-05-04 17:08:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:08:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:08:53 UTC] === Sentiment cycle complete ===
+[2026-05-04 17:23:42 UTC] === Sentiment cycle start ===
+[2026-05-04 17:23:44 UTC] Equity: $100408.05 | Buying power: $139708.44
+[2026-05-04 17:23:45 UTC] Fear & Greed: 50
+[2026-05-04 17:23:46 UTC] -- AAPL
+[2026-05-04 17:23:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:47 UTC] -- MSFT
+[2026-05-04 17:23:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:48 UTC] -- NVDA
+[2026-05-04 17:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:49 UTC] -- AMD
+[2026-05-04 17:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:49 UTC] -- TSLA
+[2026-05-04 17:23:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:50 UTC] -- META
+[2026-05-04 17:23:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:51 UTC] -- GOOGL
+[2026-05-04 17:23:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:52 UTC] -- AMZN
+[2026-05-04 17:23:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:53 UTC] -- SPY
+[2026-05-04 17:23:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:54 UTC] -- QQQ
+[2026-05-04 17:23:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:23:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:23:55 UTC] === Sentiment cycle complete ===
+[2026-05-04 17:38:44 UTC] === Sentiment cycle start ===
+[2026-05-04 17:38:46 UTC] Equity: $100286.35 | Buying power: $7922.89
+[2026-05-04 17:38:47 UTC] Fear & Greed: 50
+[2026-05-04 17:38:48 UTC] -- AAPL
+[2026-05-04 17:38:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:49 UTC] -- MSFT
+[2026-05-04 17:38:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:50 UTC] -- NVDA
+[2026-05-04 17:38:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:50 UTC] -- AMD
+[2026-05-04 17:38:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:51 UTC] -- TSLA
+[2026-05-04 17:38:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:52 UTC] -- META
+[2026-05-04 17:38:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:53 UTC] -- GOOGL
+[2026-05-04 17:38:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:54 UTC] -- AMZN
+[2026-05-04 17:38:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:55 UTC] -- SPY
+[2026-05-04 17:38:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:55 UTC] -- QQQ
+[2026-05-04 17:38:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:38:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:38:56 UTC] === Sentiment cycle complete ===
+[2026-05-04 17:53:42 UTC] === Sentiment cycle start ===
+[2026-05-04 17:53:44 UTC] Equity: $100703.12 | Buying power: $8314.66
+[2026-05-04 17:53:44 UTC] Fear & Greed: 50
+[2026-05-04 17:53:46 UTC] -- AAPL
+[2026-05-04 17:53:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:47 UTC] -- MSFT
+[2026-05-04 17:53:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:48 UTC] -- NVDA
+[2026-05-04 17:53:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:49 UTC] -- AMD
+[2026-05-04 17:53:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:49 UTC] -- TSLA
+[2026-05-04 17:53:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:50 UTC] -- META
+[2026-05-04 17:53:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:51 UTC] -- GOOGL
+[2026-05-04 17:53:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:52 UTC] -- AMZN
+[2026-05-04 17:53:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:52 UTC] -- SPY
+[2026-05-04 17:53:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:53 UTC] -- QQQ
+[2026-05-04 17:53:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 17:53:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 17:53:54 UTC] === Sentiment cycle complete ===
+[2026-05-04 18:08:42 UTC] === Sentiment cycle start ===
+[2026-05-04 18:08:45 UTC] Equity: $100640.38 | Buying power: $131351.09
+[2026-05-04 18:08:45 UTC] Fear & Greed: 50
+[2026-05-04 18:08:47 UTC] -- AAPL
+[2026-05-04 18:08:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:48 UTC] -- MSFT
+[2026-05-04 18:08:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:49 UTC] -- NVDA
+[2026-05-04 18:08:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:50 UTC] -- AMD
+[2026-05-04 18:08:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:50 UTC] -- TSLA
+[2026-05-04 18:08:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:51 UTC] -- META
+[2026-05-04 18:08:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:52 UTC] -- GOOGL
+[2026-05-04 18:08:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:53 UTC] -- AMZN
+[2026-05-04 18:08:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:54 UTC] -- SPY
+[2026-05-04 18:08:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:55 UTC] -- QQQ
+[2026-05-04 18:08:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:08:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:08:56 UTC] === Sentiment cycle complete ===
+[2026-05-04 18:23:40 UTC] === Sentiment cycle start ===
+[2026-05-04 18:23:42 UTC] Equity: $100566.28 | Buying power: $131171.99
+[2026-05-04 18:23:43 UTC] Fear & Greed: 50
+[2026-05-04 18:23:45 UTC] -- AAPL
+[2026-05-04 18:23:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:46 UTC] -- MSFT
+[2026-05-04 18:23:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:47 UTC] -- NVDA
+[2026-05-04 18:23:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:47 UTC] -- AMD
+[2026-05-04 18:23:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:48 UTC] -- TSLA
+[2026-05-04 18:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:49 UTC] -- META
+[2026-05-04 18:23:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:50 UTC] -- GOOGL
+[2026-05-04 18:23:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:51 UTC] -- AMZN
+[2026-05-04 18:23:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:52 UTC] -- SPY
+[2026-05-04 18:23:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:52 UTC] -- QQQ
+[2026-05-04 18:23:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:23:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:23:53 UTC] === Sentiment cycle complete ===
+[2026-05-04 18:38:40 UTC] === Sentiment cycle start ===
+[2026-05-04 18:38:42 UTC] Equity: $100533.82 | Buying power: $156000.09
+[2026-05-04 18:38:43 UTC] Fear & Greed: 50
+[2026-05-04 18:38:45 UTC] -- AAPL
+[2026-05-04 18:38:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:46 UTC] -- MSFT
+[2026-05-04 18:38:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:47 UTC] -- NVDA
+[2026-05-04 18:38:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:48 UTC] -- AMD
+[2026-05-04 18:38:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:49 UTC] -- TSLA
+[2026-05-04 18:38:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:49 UTC] -- META
+[2026-05-04 18:38:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:50 UTC] -- GOOGL
+[2026-05-04 18:38:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:51 UTC] -- AMZN
+[2026-05-04 18:38:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:52 UTC] -- SPY
+[2026-05-04 18:38:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:53 UTC] -- QQQ
+[2026-05-04 18:38:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:38:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:38:54 UTC] === Sentiment cycle complete ===
+[2026-05-04 18:53:41 UTC] === Sentiment cycle start ===
+[2026-05-04 18:53:43 UTC] Equity: $100565.98 | Buying power: $156032.25
+[2026-05-04 18:53:44 UTC] Fear & Greed: 50
+[2026-05-04 18:53:46 UTC] -- AAPL
+[2026-05-04 18:53:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:46 UTC] -- MSFT
+[2026-05-04 18:53:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:47 UTC] -- NVDA
+[2026-05-04 18:53:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:48 UTC] -- AMD
+[2026-05-04 18:53:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:49 UTC] -- TSLA
+[2026-05-04 18:53:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:50 UTC] -- META
+[2026-05-04 18:53:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:51 UTC] -- GOOGL
+[2026-05-04 18:53:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:51 UTC] -- AMZN
+[2026-05-04 18:53:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:52 UTC] -- SPY
+[2026-05-04 18:53:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:53 UTC] -- QQQ
+[2026-05-04 18:53:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 18:53:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 18:53:54 UTC] === Sentiment cycle complete ===
+[2026-05-04 19:08:46 UTC] === Sentiment cycle start ===
+[2026-05-04 19:08:48 UTC] Equity: $100651.72 | Buying power: $156728.91
+[2026-05-04 19:08:49 UTC] Fear & Greed: 50
+[2026-05-04 19:08:51 UTC] -- AAPL
+[2026-05-04 19:08:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:08:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:08:52 UTC] -- MSFT
+[2026-05-04 19:08:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:08:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:08:53 UTC] -- NVDA
+[2026-05-04 19:08:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:08:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:08:54 UTC] -- AMD
+[2026-05-04 19:08:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:08:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:08:54 UTC] -- TSLA
+[2026-05-04 19:08:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:08:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:08:55 UTC] -- META
+[2026-05-04 19:08:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:08:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:08:56 UTC] -- GOOGL
+[2026-05-04 19:08:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:08:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:08:57 UTC] -- AMZN
+[2026-05-04 19:08:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:08:58 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:08:58 UTC] -- SPY
+[2026-05-04 19:08:59 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:08:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:08:59 UTC] -- QQQ
+[2026-05-04 19:09:00 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:09:00 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:09:00 UTC] === Sentiment cycle complete ===
+[2026-05-04 19:23:43 UTC] === Sentiment cycle start ===
+[2026-05-04 19:23:45 UTC] Equity: $100562.12 | Buying power: $156639.31
+[2026-05-04 19:23:46 UTC] Fear & Greed: 50
+[2026-05-04 19:23:48 UTC] -- AAPL
+[2026-05-04 19:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:49 UTC] -- MSFT
+[2026-05-04 19:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:50 UTC] -- NVDA
+[2026-05-04 19:23:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:50 UTC] -- AMD
+[2026-05-04 19:23:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:51 UTC] -- TSLA
+[2026-05-04 19:23:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:52 UTC] -- META
+[2026-05-04 19:23:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:53 UTC] -- GOOGL
+[2026-05-04 19:23:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:54 UTC] -- AMZN
+[2026-05-04 19:23:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:54 UTC] -- SPY
+[2026-05-04 19:23:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:55 UTC] -- QQQ
+[2026-05-04 19:23:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:23:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:23:56 UTC] === Sentiment cycle complete ===
+[2026-05-04 19:23:58 UTC] === Sentiment cycle start ===
+[2026-05-04 19:24:00 UTC] Equity: $100555.31 | Buying power: $156632.5
+[2026-05-04 19:24:01 UTC] Fear & Greed: 50
+[2026-05-04 19:24:03 UTC] -- AAPL
+[2026-05-04 19:24:03 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:03 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:03 UTC] -- MSFT
+[2026-05-04 19:24:04 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:04 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:04 UTC] -- NVDA
+[2026-05-04 19:24:05 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:05 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:05 UTC] -- AMD
+[2026-05-04 19:24:06 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:06 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:06 UTC] -- TSLA
+[2026-05-04 19:24:07 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:07 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:07 UTC] -- META
+[2026-05-04 19:24:08 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:08 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:08 UTC] -- GOOGL
+[2026-05-04 19:24:09 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:09 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:09 UTC] -- AMZN
+[2026-05-04 19:24:10 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:10 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:10 UTC] -- SPY
+[2026-05-04 19:24:10 UTC] === Sentiment cycle start ===
+[2026-05-04 19:24:11 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:11 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:11 UTC] -- QQQ
+[2026-05-04 19:24:11 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:24:11 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:24:12 UTC] === Sentiment cycle complete ===
+[2026-05-04 19:24:12 UTC] Equity: $100567.83 | Buying power: $156645.02
+[2026-05-04 19:24:13 UTC] Fear & Greed: 50
+[2026-05-04 19:38:40 UTC] === Sentiment cycle start ===
+[2026-05-04 19:38:42 UTC] Equity: $100634.72 | Buying power: $136104.09
+[2026-05-04 19:38:43 UTC] Fear & Greed: 50
+[2026-05-04 19:38:45 UTC] -- AAPL
+[2026-05-04 19:38:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:46 UTC] -- MSFT
+[2026-05-04 19:38:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:46 UTC] -- NVDA
+[2026-05-04 19:38:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:47 UTC] -- AMD
+[2026-05-04 19:38:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:48 UTC] -- TSLA
+[2026-05-04 19:38:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:49 UTC] -- META
+[2026-05-04 19:38:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:50 UTC] -- GOOGL
+[2026-05-04 19:38:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:51 UTC] -- AMZN
+[2026-05-04 19:38:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:52 UTC] -- SPY
+[2026-05-04 19:38:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:52 UTC] -- QQQ
+[2026-05-04 19:38:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:38:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:38:53 UTC] === Sentiment cycle complete ===
+[2026-05-04 19:53:44 UTC] === Sentiment cycle start ===
+[2026-05-04 19:53:47 UTC] Equity: $100511.99 | Buying power: $135988.86
+[2026-05-04 19:53:47 UTC] Fear & Greed: 50
+[2026-05-04 19:53:49 UTC] -- AAPL
+[2026-05-04 19:53:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:50 UTC] -- MSFT
+[2026-05-04 19:53:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:51 UTC] -- NVDA
+[2026-05-04 19:53:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:52 UTC] -- AMD
+[2026-05-04 19:53:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:53 UTC] -- TSLA
+[2026-05-04 19:53:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:54 UTC] -- META
+[2026-05-04 19:53:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:54 UTC] -- GOOGL
+[2026-05-04 19:53:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:55 UTC] -- AMZN
+[2026-05-04 19:53:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:56 UTC] -- SPY
+[2026-05-04 19:53:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:57 UTC] -- QQQ
+[2026-05-04 19:53:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 19:53:58 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 19:53:58 UTC] === Sentiment cycle complete ===
+[2026-05-04 20:09:00 UTC] === Sentiment cycle start ===
+[2026-05-04 20:09:03 UTC] Equity: $100464.03 | Buying power: $36108.27
+[2026-05-04 20:09:04 UTC] Fear & Greed: 50
+[2026-05-04 20:09:07 UTC] -- AAPL
+[2026-05-04 20:09:08 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:08 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:08 UTC] -- MSFT
+[2026-05-04 20:09:09 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:09 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:09 UTC] -- NVDA
+[2026-05-04 20:09:10 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:10 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:10 UTC] -- AMD
+[2026-05-04 20:09:11 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:11 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:11 UTC] -- TSLA
+[2026-05-04 20:09:12 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:12 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:12 UTC] -- META
+[2026-05-04 20:09:13 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:13 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:13 UTC] -- GOOGL
+[2026-05-04 20:09:14 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:14 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:14 UTC] -- AMZN
+[2026-05-04 20:09:15 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:15 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:15 UTC] -- SPY
+[2026-05-04 20:09:16 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:16 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:16 UTC] -- QQQ
+[2026-05-04 20:09:17 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:09:17 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:09:17 UTC] === Sentiment cycle complete ===
+[2026-05-04 20:23:40 UTC] === Sentiment cycle start ===
+[2026-05-04 20:23:42 UTC] Equity: $100444.91 | Buying power: $36140.53
+[2026-05-04 20:23:43 UTC] Fear & Greed: 50
+[2026-05-04 20:23:45 UTC] -- AAPL
+[2026-05-04 20:23:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:46 UTC] -- MSFT
+[2026-05-04 20:23:46 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:46 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:46 UTC] -- NVDA
+[2026-05-04 20:23:47 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:47 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:47 UTC] -- AMD
+[2026-05-04 20:23:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:48 UTC] -- TSLA
+[2026-05-04 20:23:48 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:48 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:48 UTC] -- META
+[2026-05-04 20:23:49 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:49 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:49 UTC] -- GOOGL
+[2026-05-04 20:23:50 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:50 UTC] -- AMZN
+[2026-05-04 20:23:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:51 UTC] -- SPY
+[2026-05-04 20:23:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:52 UTC] -- QQQ
+[2026-05-04 20:23:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:23:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:23:53 UTC] === Sentiment cycle complete ===
+[2026-05-04 20:38:47 UTC] === Sentiment cycle start ===
+[2026-05-04 20:38:49 UTC] Equity: $100426.5 | Buying power: $35858.03
+[2026-05-04 20:38:50 UTC] Fear & Greed: 50
+[2026-05-04 20:38:51 UTC] -- AAPL
+[2026-05-04 20:38:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:38:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:38:52 UTC] -- MSFT
+[2026-05-04 20:38:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:38:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:38:53 UTC] -- NVDA
+[2026-05-04 20:38:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:38:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:38:54 UTC] -- AMD
+[2026-05-04 20:38:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:38:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:38:55 UTC] -- TSLA
+[2026-05-04 20:38:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:38:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:38:56 UTC] -- META
+[2026-05-04 20:38:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:38:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:38:57 UTC] -- GOOGL
+[2026-05-04 20:38:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:38:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:38:57 UTC] -- AMZN
+[2026-05-04 20:38:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:38:58 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:38:58 UTC] -- SPY
+[2026-05-04 20:38:59 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:38:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:38:59 UTC] -- QQQ
+[2026-05-04 20:39:00 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:39:00 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:39:00 UTC] === Sentiment cycle complete ===
+[2026-05-04 20:53:45 UTC] === Sentiment cycle start ===
+[2026-05-04 20:53:47 UTC] Equity: $100444.13 | Buying power: $35721.0
+[2026-05-04 20:53:48 UTC] Fear & Greed: 50
+[2026-05-04 20:53:50 UTC] -- AAPL
+[2026-05-04 20:53:51 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:51 UTC] -- MSFT
+[2026-05-04 20:53:52 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:52 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:52 UTC] -- NVDA
+[2026-05-04 20:53:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:53 UTC] -- AMD
+[2026-05-04 20:53:53 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:53 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:54 UTC] -- TSLA
+[2026-05-04 20:53:54 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:54 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:54 UTC] -- META
+[2026-05-04 20:53:55 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:55 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:55 UTC] -- GOOGL
+[2026-05-04 20:53:56 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:56 UTC] -- AMZN
+[2026-05-04 20:53:57 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:57 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:57 UTC] -- SPY
+[2026-05-04 20:53:58 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:58 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:58 UTC] -- QQQ
+[2026-05-04 20:53:59 UTC]   signal=NEUTRAL score=0.0 articles=0
+[2026-05-04 20:53:59 UTC]   SKIP: NEUTRAL signal.
+[2026-05-04 20:53:59 UTC] === Sentiment cycle complete ===
+[2026-05-05 00:52:37 UTC] === Sentiment cycle start ===
+[2026-05-05 00:52:39 UTC] Equity: $100521.29 | Buying power: $35933.66
+[2026-05-05 00:52:44 UTC] Fear & Greed: 50
+[2026-05-05 00:52:46 UTC] -- AAPL
+[2026-05-05 00:52:49 UTC]   signal=NEUTRAL score=0.0 articles=4
+[2026-05-05 00:52:50 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 00:52:50 UTC] -- MSFT
+[2026-05-05 00:52:53 UTC]   signal=BULLISH score=2.5 articles=6
+[2026-05-05 00:52:55 UTC]   → BUY 19 shares of MSFT @ ~$412.94
+
+📋 Order Summary:
+   BUY 19 MSFT @ MARKET (~$440.27)
+   Estimated total: $8,365.13
+Order Submitted!
+  ID: 92540f8a-2a79-479f-bc2e-4a6dcccb142b
+  Symbol: MSFT
+  Side: OrderSide.BUY
+  Qty: 19
+  Type: market
+  Status: OrderStatus.ACCEPTED
+[2026-05-05 00:52:57 UTC] -- NVDA
+[2026-05-05 00:53:01 UTC]   signal=NEUTRAL score=0.0 articles=7
+[2026-05-05 00:53:01 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 00:53:01 UTC] -- AMD
+[2026-05-05 00:53:05 UTC]   signal=BULLISH score=3.0 articles=7
+[2026-05-05 00:53:07 UTC]   → BUY 23 shares of AMD @ ~$341.52
+
+📋 Order Summary:
+   BUY 23 AMD @ MARKET (~$0.00)
+   Estimated total: $0.00
+Order Submitted!
+  ID: 86a3a2d4-0ca2-4889-868a-58c6f2440118
+  Symbol: AMD
+  Side: OrderSide.BUY
+  Qty: 23
+  Type: market
+  Status: OrderStatus.ACCEPTED
+[2026-05-05 00:53:09 UTC] -- TSLA
+[2026-05-05 00:53:13 UTC]   signal=NEUTRAL score=-1.5 articles=6
+[2026-05-05 00:53:13 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 00:53:13 UTC] -- META
+[2026-05-05 00:53:17 UTC]   signal=BULLISH score=4.09 articles=6
+[2026-05-05 00:53:18 UTC]   → BUY 13 shares of META @ ~$609.52
+
+📋 Order Summary:
+   BUY 13 META @ MARKET (~$0.00)
+   Estimated total: $0.00
+Order Submitted!
+  ID: 8dc8635e-6ad1-4d95-8d04-0ea3101f8c30
+  Symbol: META
+  Side: OrderSide.BUY
+  Qty: 13
+  Type: market
+  Status: OrderStatus.ACCEPTED
+[2026-05-05 00:53:20 UTC] -- GOOGL
+[2026-05-05 00:53:24 UTC]   signal=BULLISH score=2.0 articles=5
+[2026-05-05 00:53:25 UTC]   → BUY 20 shares of GOOGL @ ~$383.21
+
+📋 Order Summary:
+   BUY 20 GOOGL @ MARKET (~$405.15)
+   Estimated total: $8,103.00
+Order Submitted!
+  ID: b4c67d9f-5cc7-4451-9796-02b54b679e18
+  Symbol: GOOGL
+  Side: OrderSide.BUY
+  Qty: 20
+  Type: market
+  Status: OrderStatus.ACCEPTED
+[2026-05-05 00:53:27 UTC] -- AMZN
+[2026-05-05 00:53:31 UTC]   signal=NEUTRAL score=-1.0 articles=5
+[2026-05-05 00:53:31 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 00:53:31 UTC] -- SPY
+[2026-05-05 00:53:35 UTC]   signal=BULLISH score=2.0 articles=3
+[2026-05-05 00:53:36 UTC]   → BUY 6 shares of SPY @ ~$717.8
+
+📋 Order Summary:
+   BUY 6 SPY @ MARKET (~$0.00)
+   Estimated total: $0.00
+Order Submitted!
+  ID: 3b520cb3-1a5a-4c07-a464-d1ad9d6474a6
+  Symbol: SPY
+  Side: OrderSide.BUY
+  Qty: 6
+  Type: market
+  Status: OrderStatus.ACCEPTED
+[2026-05-05 00:53:39 UTC] -- QQQ
+[2026-05-05 00:53:43 UTC]   signal=BULLISH score=2.5 articles=8
+[2026-05-05 00:53:44 UTC]   SKIP BUY: 0 shares calculated.
+[2026-05-05 00:53:44 UTC] === Sentiment cycle complete ===
+[2026-05-05 01:18:58 UTC] === Sentiment cycle start ===
+[2026-05-05 01:19:00 UTC] Equity: $100810.59 | Buying power: $558.49
+[2026-05-05 01:19:05 UTC] Fear & Greed: 50
+[2026-05-05 01:19:08 UTC] -- AAPL
+[2026-05-05 01:19:12 UTC]   signal=NEUTRAL score=-0.74 articles=4
+[2026-05-05 01:19:12 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 01:19:12 UTC] -- MSFT
+[2026-05-05 01:19:17 UTC]   signal=NEUTRAL score=-1.42 articles=4
+[2026-05-05 01:19:17 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 01:19:17 UTC] -- NVDA
+[2026-05-05 01:19:21 UTC]   signal=NEUTRAL score=-0.08 articles=7
+[2026-05-05 01:19:21 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 01:19:21 UTC] -- AMD
+[2026-05-05 01:19:25 UTC]   signal=NEUTRAL score=0.6 articles=7
+[2026-05-05 01:19:26 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 01:19:26 UTC] -- TSLA
+[2026-05-05 01:19:30 UTC]   signal=NEUTRAL score=-0.06 articles=6
+[2026-05-05 01:19:30 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 01:19:30 UTC] -- META
+[2026-05-05 01:19:34 UTC]   signal=BULLISH score=2.33 articles=6
+[2026-05-05 01:19:36 UTC]   SKIP BUY: 0 shares calculated.
+[2026-05-05 01:19:36 UTC] -- GOOGL
+[2026-05-05 01:19:41 UTC]   signal=BULLISH score=2.5 articles=5
+[2026-05-05 01:19:43 UTC]   → BUY 1 shares of GOOGL @ ~$383.21
+
+📋 Order Summary:
+   BUY 1 GOOGL @ MARKET (~$405.15)
+   Estimated total: $405.15
+Order Submitted!
+  ID: b9a6daad-c2e3-4691-a2a4-8a8b035ce5cd
+  Symbol: GOOGL
+  Side: OrderSide.BUY
+  Qty: 1
+  Type: market
+  Status: OrderStatus.ACCEPTED
+[2026-05-05 01:19:46 UTC] -- AMZN
+[2026-05-05 01:19:51 UTC]   signal=NEUTRAL score=0.46 articles=5
+[2026-05-05 01:19:51 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 01:19:51 UTC] -- SPY
+[2026-05-05 01:19:56 UTC]   signal=NEUTRAL score=0.8 articles=3
+[2026-05-05 01:19:56 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 01:19:56 UTC] -- QQQ
+[2026-05-05 01:20:02 UTC]   signal=NEUTRAL score=1.18 articles=8
+[2026-05-05 01:20:02 UTC]   SKIP: NEUTRAL signal.
+[2026-05-05 01:20:02 UTC] === Sentiment cycle complete ===
