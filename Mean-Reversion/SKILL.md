@@ -20,7 +20,15 @@ There is **no single tool** named “run full scan cycle” in Cursor/OpenClaw. 
 
 ## Companion skill: sentiment-trader
 
-**`skills/Sentiment-Trader/`** runs news/social sentiment + Alpaca execution on a **different schedule** (premarket + 15-minute cycles). Schedule **separate cron jobs** so sentiment and mean-reversion do not share one fragile prompt.
+**`skills/Sentiment-Trader/`** runs news/social sentiment + Alpaca execution using the same math/rules as this skill.
+
+### Production cadence (recommended): Docker `openclaw-trader`, not gateway cron
+
+Trading loops **must not** depend on OpenClaw `agentTurn` cron + `exec` (overlapping isolated sessions, LLM overhead, and restarts that interrupt jobs). Instead:
+
+1. **`docker compose up -d openclaw-trader`** from your OpenClaw repo (`docker-compose.yml`) runs **`skills/Mean-Reversion/trading_daemon.sh`** in a dedicated container: **mean-reversion loop → sentiment `run_cycle.sh` → idempotent `close_all_eod.sh` → sleep**, repeating forever when Alpaca reports the market open (lighter sleep when closed).
+2. Gateway **`cron/jobs.json`** keeps mean-reversion / sentiment / EOD jobs **`enabled: false`** so they do not double-run. Re-enable only if you stop the trader container.
+3. Tune **`TRADER_SLEEP_OPEN_SEC`** (default 75) / **`TRADER_SLEEP_CLOSED_SEC`** (default 300) in compose `.env` for how often you want full math cycles without stacking concurrent runs.
 
 **Optional portfolio policy (your choice, does not weaken either skill):** e.g. only take a mean-reversion **BUY** when sentiment for that symbol is not **BEARISH**, or reduce size when sentiment is NEUTRAL. Both skills stay fully usable alone.
 

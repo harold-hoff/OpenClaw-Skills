@@ -1,0 +1,13 @@
+# Local runtime — do not publish
+*.log
+**/state.json
+**/trading_loop.state.json
+**/eod.flag
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Secrets / env (keys belong in OpenClaw/docker env only)
+.env
+.env.*
+*.pem

@@ -68,19 +68,25 @@ def signal(current_price, bands):
     return "HOLD"
 
 
-# Default exit thresholds — tuned for hourly bars on liquid US large caps.
-TAKE_PROFIT_PCT      = 0.012   # +1.2% from entry: take profit
-STOP_LOSS_PCT        = 0.020   # -2.0% from entry: cut loss
-TRAILING_STOP_PCT    = 0.010   # 1.0% give-back from peak after >+0.7% gain
-TRAILING_ARM_PCT     = 0.007   # arm trailing once trade is up >0.7%
-TIME_STOP_MINUTES    = 60 * 6  # 6 hours: exit any position lingering since open
-SMA_TARGET_TOLERANCE = 0.001   # if price within 0.1% of SMA: take profit
+# Exit thresholds — tightened 2026-05-05 after observing positions bleeding all
+# afternoon at -1.4% never triggering the old -2.0% stop. With shorter time
+# windows we book small wins faster and cut bleeders before they hit -2%.
+TAKE_PROFIT_PCT      = 0.008   # +0.8% from entry: take profit (was 1.2%)
+STOP_LOSS_PCT        = 0.012   # -1.2% from entry: cut loss   (was 2.0%)
+TRAILING_STOP_PCT    = 0.006   # 0.6% give-back from peak     (was 1.0%)
+TRAILING_ARM_PCT     = 0.004   # arm trailing at +0.4% gain   (was 0.7%)
+TIME_STOP_MINUTES    = 120     # paper: avoid flattening flat mean-reversion legs right before a move
+SOFT_EXIT_MINUTES    = 45      # after 45m, accept a small loss if below SMA
+SOFT_EXIT_PNL        = -0.004  # if pnl <= -0.4% AND below SMA: SOFT_EXIT
+SMA_TARGET_TOLERANCE = 0.0015  # tag SMA target within 0.15%  (was 0.1%)
+MIN_GAIN_TO_HOLD_PAST_TIME = 0.001  # small green enough to hold past time-stop (was +0.3%)
 
 
 def manage(entry, current, sma, lower=None, upper=None, peak=None, held_minutes=0):
     """Decide whether to exit an open long position. Returns:
 
-    {"action":"HOLD"|"TAKE_PROFIT"|"STOP_LOSS"|"TRAILING_STOP"|"TIME_STOP"|"BAND_BREAK", "reason": str}
+    {"action":"HOLD"|"TAKE_PROFIT"|"STOP_LOSS"|"TRAILING_STOP"|"TIME_STOP"
+     |"BAND_BREAK"|"SOFT_EXIT", "reason": str}
     """
     entry = float(entry)
     current = float(current)
@@ -93,40 +99,50 @@ def manage(entry, current, sma, lower=None, upper=None, peak=None, held_minutes=
 
     pnl_pct = (current - entry) / entry
 
-    # 1. Hard stop loss first — protect capital
+    # 1. Hard stop loss — protect capital first
     if pnl_pct <= -STOP_LOSS_PCT:
-        return {"action": "STOP_LOSS", "reason": f"pnl {pnl_pct:.2%} <= -{STOP_LOSS_PCT:.2%}"}
+        return {"action": "STOP_LOSS",
+                "reason": f"pnl {pnl_pct:.2%} <= -{STOP_LOSS_PCT:.2%}"}
 
-    # 2. Hard band break (price fell well below lower band) — strategy invalidated
-    if lower is not None and current < float(lower) * 0.985:
-        return {"action": "BAND_BREAK", "reason": f"price ${current:.2f} < lower ${float(lower):.2f} - 1.5%"}
+    # 2. Band break — strategy invalidated when price falls well below lower band
+    if lower is not None and current < float(lower) * 0.99:
+        return {"action": "BAND_BREAK",
+                "reason": f"price ${current:.2f} < lower ${float(lower):.2f} - 1%"}
 
-    # 3. Take profit at +X%
+    # 3. Take profit at small target — we live off many small wins
     if pnl_pct >= TAKE_PROFIT_PCT:
-        return {"action": "TAKE_PROFIT", "reason": f"pnl {pnl_pct:.2%} >= +{TAKE_PROFIT_PCT:.2%}"}
+        return {"action": "TAKE_PROFIT",
+                "reason": f"pnl {pnl_pct:.2%} >= +{TAKE_PROFIT_PCT:.2%}"}
 
     # 4. Reached SMA target (mean reverted) — book it
     if abs(current - sma) / max(sma, 1e-9) <= SMA_TARGET_TOLERANCE and pnl_pct > 0:
         return {"action": "TAKE_PROFIT", "reason": f"reverted to SMA ${sma:.2f}"}
 
-    # 5. Trailing stop once we've armed it
+    # 5. Trailing stop once armed
     if pnl_pct >= TRAILING_ARM_PCT:
         peak_pnl = (peak - entry) / entry
         give_back = (peak - current) / max(peak, 1e-9)
         if peak_pnl >= TRAILING_ARM_PCT and give_back >= TRAILING_STOP_PCT:
             return {
                 "action": "TRAILING_STOP",
-                "reason": f"gave back {give_back:.2%} from peak ${peak:.2f} (peak_pnl {peak_pnl:.2%})",
+                "reason": f"gave back {give_back:.2%} from peak ${peak:.2f} "
+                          f"(peak_pnl {peak_pnl:.2%})",
             }
 
-    # 6. Time stop — don't hold trades that aren't working
-    if held_minutes >= TIME_STOP_MINUTES and pnl_pct < TAKE_PROFIT_PCT * 0.5:
+    # 6. Soft exit — small loss + mean already broken below us → no edge left
+    if held_minutes >= SOFT_EXIT_MINUTES and pnl_pct <= SOFT_EXIT_PNL and current < sma:
+        return {"action": "SOFT_EXIT",
+                "reason": f"held {held_minutes}m at {pnl_pct:.2%} below SMA ${sma:.2f}"}
+
+    # 7. Time stop — don't hold trades that aren't working
+    if held_minutes >= TIME_STOP_MINUTES and pnl_pct < MIN_GAIN_TO_HOLD_PAST_TIME:
         return {
             "action": "TIME_STOP",
-            "reason": f"held {held_minutes}m, pnl {pnl_pct:.2%} below half-target",
+            "reason": f"held {held_minutes}m, pnl {pnl_pct:.2%} below "
+                      f"+{MIN_GAIN_TO_HOLD_PAST_TIME:.2%} hold-past-time gate",
         }
 
-    return {"action": "HOLD", "reason": f"pnl {pnl_pct:.2%}, peak give-back below threshold"}
+    return {"action": "HOLD", "reason": f"pnl {pnl_pct:.2%}, no exit triggered"}
 
 
 # CLI entry point

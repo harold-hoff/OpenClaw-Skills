@@ -21,6 +21,7 @@ import json
 import os
 import subprocess
 import sys
+import traceback
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -35,9 +36,19 @@ STATE_FILE       = WORKSPACE / "skills/Mean-Reversion/trading_loop.state.json"
 HOURLY_BARS      = 24       # 1 day of hourly bars for intraday BB (>=20 needed)
 STARTING_EQUITY  = 100_000.0
 MIN_BUYING_POWER = 100.0
-MAX_POSITION_PCT = 0.15     # max 15% of equity per single name
+MAX_POSITION_PCT = 0.12     # paper: slightly larger per-name sleeve (was 10%)
 DRAWDOWN_LIMIT   = 0.25     # halt if equity drops >25%
-MAX_OPEN_POSITIONS = 6      # cap concurrent positions to control risk
+MAX_OPEN_POSITIONS = 6      # paper: allow broader book alongside sentiment sleeve
+MAX_NEW_ENTRIES_PER_CYCLE = 2   # can add two MR legs per daemon pass when signals stack
+RESERVE_CASH_PCT = 0.05     # use more BP on paper; keep 5% cushion for exits
+# Skip marginal BUYs at the noisy edge of the band — improves expectancy vs churn.
+MIN_ENTRY_DEPTH = 0.05    # (SMA−price)/band_range must be ≥ this (deeper dip)
+
+# End-of-day failsafe — if any cycle runs at/after this NY-time minute,
+# liquidate everything before evaluating new signals. Backstops the
+# 15:50 ET cron job in case it crashes/misses.
+EOD_FLATTEN_HOUR_ET = 15    # 3:xx PM ET
+EOD_FLATTEN_MIN_ET  = 50    # at minute 50
 # ──────────────────────────────────────────────────────────────────────────────
 
 
@@ -221,6 +232,56 @@ def load_watchlist() -> list[str]:
 # ── Main loop ────────────────────────────────────────────────────────────────
 
 
+def _is_after_eod_flatten() -> bool:
+    """True if NY clock is past 15:50 ET (or whatever EOD_FLATTEN_* is set to)."""
+    try:
+        from zoneinfo import ZoneInfo
+        now = datetime.now(ZoneInfo("America/New_York"))
+        if now.weekday() >= 5:
+            return False
+        return (now.hour, now.minute) >= (EOD_FLATTEN_HOUR_ET, EOD_FLATTEN_MIN_ET)
+    except Exception:
+        return False
+
+
+def _eod_already_flattened_today() -> bool:
+    """Check the dated EOD flag file so we don't re-flatten on every cycle."""
+    try:
+        from zoneinfo import ZoneInfo
+        today = datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
+        flag = WORKSPACE / "skills/Mean-Reversion/eod.flag"
+        if not flag.exists():
+            return False
+        return flag.read_text().strip() == today
+    except Exception:
+        return False
+
+
+def _mark_eod_flattened_today() -> None:
+    try:
+        from zoneinfo import ZoneInfo
+        today = datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
+        flag = WORKSPACE / "skills/Mean-Reversion/eod.flag"
+        flag.write_text(today)
+    except Exception:
+        pass
+
+
+def _flatten_all(held: dict, state: dict, reason: str) -> None:
+    """Sell every long, cover every short. Used by intraday EOD failsafe."""
+    log(f"!!! EOD FAILSAFE FLATTEN ({reason}): closing {len(held)} positions !!!")
+    for sym, pos in list(held.items()):
+        qty = int(float(pos.get("qty", 0)))
+        if qty == 0:
+            continue
+        side = "sell" if qty > 0 else "buy"
+        log(f"  → {side.upper()} {abs(qty)} {sym} (EOD)")
+        if place_order(side, sym, abs(qty)):
+            state["positions"].pop(sym, None)
+    save_state(state)
+    _mark_eod_flattened_today()
+
+
 def main() -> None:
     log("=== Mean-Reversion scan cycle start ===")
 
@@ -245,6 +306,21 @@ def main() -> None:
     state = load_state()
     state.setdefault("positions", {})
 
+    # ── EOD FAILSAFE ────────────────────────────────────────────────────────
+    # If we're past 15:50 ET and cron's close-all-positions-eod failed/crashed,
+    # liquidate everything and skip the cycle. Idempotent: dated flag file
+    # ensures we only attempt once per trading day.
+    if _is_after_eod_flatten():
+        if _eod_already_flattened_today():
+            log("Past EOD flatten time and flag set — refusing new entries; nothing to do.")
+            return
+        if held:
+            _flatten_all(held, state, reason="cron EOD missed or after market wind-down")
+        else:
+            _mark_eod_flattened_today()
+            log("Past EOD flatten time but no positions held — flag set, exiting.")
+        return
+
     # Reconcile state vs. broker reality (positions closed externally)
     for sym in list(state["positions"].keys()):
         if sym not in held:
@@ -255,54 +331,57 @@ def main() -> None:
     if held:
         log(f"Open positions: {list(held.keys())}")
     for sym, pos in list(held.items()):
-        qty = int(pos["qty"])
-        if qty <= 0:
-            continue
-        current_price = pos["current_price"]
-        # Track / refresh peak
-        meta = state["positions"].setdefault(
-            sym,
-            {
-                "entry": pos["avg_entry_price"],
-                "peak": current_price,
-                "opened_at": now_iso(),
-            },
-        )
-        meta["entry"] = meta.get("entry") or pos["avg_entry_price"]
-        meta["peak"] = max(meta.get("peak", 0.0), current_price)
+        try:
+            qty = int(float(pos["qty"]))
+            if qty <= 0:
+                continue
+            current_price = pos["current_price"]
+            # Track / refresh peak
+            meta = state["positions"].setdefault(
+                sym,
+                {
+                    "entry": pos["avg_entry_price"],
+                    "peak": current_price,
+                    "opened_at": now_iso(),
+                },
+            )
+            meta["entry"] = meta.get("entry") or pos["avg_entry_price"]
+            meta["peak"] = max(meta.get("peak", 0.0), current_price)
 
-        closes = get_hourly_closes(sym)
-        if len(closes) < 20:
-            log(f"  EXIT-MGR {sym}: only {len(closes)} bars — using broker price only.")
-            sma = current_price
-            lower = upper = current_price
-        else:
-            from statistics import mean, pstdev
-            window = closes[-20:]
-            sma = mean(window)
-            std = pstdev(window)
-            upper, lower = sma + 2 * std, sma - 2 * std
+            closes = get_hourly_closes(sym)
+            if len(closes) < 20:
+                log(f"  EXIT-MGR {sym}: only {len(closes)} bars — using broker price only.")
+                sma = current_price
+                lower = upper = current_price
+            else:
+                from statistics import mean, pstdev
+                window = closes[-20:]
+                sma = mean(window)
+                std = pstdev(window)
+                upper, lower = sma + 2 * std, sma - 2 * std
 
-        held_min = minutes_since(meta.get("opened_at", now_iso()))
-        decision = mr_manage(
-            entry=meta["entry"], current=current_price,
-            sma=sma, lower=lower, upper=upper, peak=meta["peak"],
-            held_minutes=held_min,
-        )
-        action = decision.get("action", "HOLD")
-        log(
-            f"  EXIT-MGR {sym}: pnl%={pos['unrealized_plpc']*100:+.2f}  "
-            f"price=${current_price:.2f}  entry=${meta['entry']:.2f}  "
-            f"peak=${meta['peak']:.2f}  sma=${sma:.2f}  held={held_min}m  "
-            f"→ {action} ({decision.get('reason','')})"
-        )
-        if action != "HOLD":
-            log(f"  → SELL {qty} {sym} ({action}) @ ~${current_price:.2f}")
-            if place_order("sell", sym, qty):
-                state["positions"].pop(sym, None)
-                buying_power += qty * current_price
-                held.pop(sym, None)
-                save_state(state)
+            held_min = minutes_since(meta.get("opened_at", now_iso()))
+            decision = mr_manage(
+                entry=meta["entry"], current=current_price,
+                sma=sma, lower=lower, upper=upper, peak=meta["peak"],
+                held_minutes=held_min,
+            )
+            action = decision.get("action", "HOLD")
+            log(
+                f"  EXIT-MGR {sym}: pnl%={pos['unrealized_plpc']*100:+.2f}  "
+                f"price=${current_price:.2f}  entry=${meta['entry']:.2f}  "
+                f"peak=${meta['peak']:.2f}  sma=${sma:.2f}  held={held_min}m  "
+                f"→ {action} ({decision.get('reason','')})"
+            )
+            if action != "HOLD":
+                log(f"  → SELL {qty} {sym} ({action}) @ ~${current_price:.2f}")
+                if place_order("sell", sym, qty):
+                    state["positions"].pop(sym, None)
+                    buying_power += qty * current_price
+                    held.pop(sym, None)
+                    save_state(state)
+        except Exception as e:
+            log(f"  EXIT-MGR {sym}: ERROR (skipped): {e}")
 
     # ── ENTRY SIGNALS ────────────────────────────────────────────────────────
     symbols = load_watchlist()
@@ -310,62 +389,100 @@ def main() -> None:
     open_count = len(held)
     orders_placed = 0
 
+    # Cash buffer: never spend the last ~10% of equity on new entries; that
+    # cushion absorbs price slippage on stops and prevents BP=$0 lockups.
+    bp_floor = max(MIN_BUYING_POWER, equity * RESERVE_CASH_PCT)
+    if buying_power <= bp_floor:
+        log(f"-- ENTRY: buying power ${buying_power:.2f} <= reserve ${bp_floor:.2f}; "
+            "skipping new entries this cycle.")
+        log(f"=== Scan cycle complete: 0 new entry order(s) placed ===\n")
+        return
+
+    # Score every candidate first so we pick the *best* setup of this cycle,
+    # not just the first one in alphabetical order.
+    candidates = []
     for sym in symbols:
-        if sym in held:
-            continue  # already have it; managed by exit logic above
+        try:
+            if sym in held:
+                continue
+            if open_count >= MAX_OPEN_POSITIONS:
+                log(f"-- {sym}: SKIP (at max {MAX_OPEN_POSITIONS} open positions)")
+                continue
 
-        if open_count >= MAX_OPEN_POSITIONS:
-            log(f"-- {sym}: SKIP (at max {MAX_OPEN_POSITIONS} open positions)")
-            continue
+            closes = get_hourly_closes(sym)
+            if len(closes) < 20:
+                log(f"-- {sym}: SKIP (only {len(closes)} hourly bars; need >=20)")
+                continue
 
-        log(f"-- {sym}")
+            current_price = closes[-1]
+            sig = mr_signal(closes, current_price)
+            signal_kind = sig.get("signal", "HOLD")
+            bands = sig.get("bands", {})
+            lower = bands.get("lower", 0)
+            upper = bands.get("upper", 0)
+            sma   = bands.get("sma", 0)
 
-        closes = get_hourly_closes(sym)
-        if len(closes) < 20:
-            log(f"  SKIP: only {len(closes)} hourly bars (need >=20).")
-            continue
+            if signal_kind != "BUY":
+                log(f"-- {sym}: signal={signal_kind} (no buy)")
+                continue
 
-        current_price = closes[-1]
-        sig = mr_signal(closes, current_price)
-        signal_kind = sig.get("signal", "HOLD")
-        bands  = sig.get("bands", {})
-        lower, upper, sma = bands.get("lower", 0), bands.get("upper", 0), bands.get("sma", 0)
+            # Strength score: how deep into the lower half of the band we are.
+            band_range = max(upper - lower, 1e-9)
+            depth = (sma - current_price) / band_range
+            if depth < MIN_ENTRY_DEPTH:
+                log(f"-- {sym}: SKIP BUY depth={depth:.3f} < {MIN_ENTRY_DEPTH} (too shallow)")
+                continue
+            log(f"-- {sym}: BUY candidate price=${current_price:.2f} "
+                f"SMA=${sma:.2f} lower=${lower:.2f} depth={depth:+.3f}")
+            candidates.append((depth, sym, current_price, lower, upper, sma))
+        except Exception as e:
+            log(f"-- {sym}: ENTRY scan ERROR (skipped): {e}")
 
-        log(
-            f"  hourly_bars={len(closes)}  signal={signal_kind}  "
-            f"price=${current_price:.2f}  SMA=${sma:.2f}  "
-            f"lower=${lower:.2f}  upper=${upper:.2f}"
-        )
+    candidates.sort(reverse=True)  # deepest first
 
-        if signal_kind != "BUY":
-            continue
+    for depth, sym, current_price, lower, upper, sma in candidates:
+        try:
+            if orders_placed >= MAX_NEW_ENTRIES_PER_CYCLE:
+                log(f"-- {sym}: SKIP (already placed {orders_placed} new entries this cycle)")
+                continue
+            if open_count >= MAX_OPEN_POSITIONS:
+                log(f"-- {sym}: SKIP (at max {MAX_OPEN_POSITIONS} open positions)")
+                continue
 
-        if buying_power < MIN_BUYING_POWER:
-            log(f"  SKIP BUY: buying power ${buying_power:.2f} < ${MIN_BUYING_POWER}")
-            continue
+            spend_cap = min(equity * MAX_POSITION_PCT, (buying_power - bp_floor) * 0.95)
+            if spend_cap <= 0:
+                log(f"-- {sym}: SKIP BUY (no spend cap left after reserve)")
+                continue
 
-        max_spend = min(equity * MAX_POSITION_PCT, buying_power * 0.95)
-        qty = max(1, int(max_spend / current_price))
-        if qty * current_price > buying_power:
-            qty = max(0, int(buying_power * 0.95 / current_price))
-        if qty <= 0:
-            log("  SKIP BUY: zero qty after sizing.")
-            continue
+            qty = int(spend_cap / current_price)
+            if qty * current_price > (buying_power - bp_floor):
+                qty = int((buying_power - bp_floor) * 0.95 / current_price)
+            if qty <= 0:
+                log(f"-- {sym}: SKIP BUY (zero qty after sizing).")
+                continue
 
-        log(f"  → BUYING {qty} {sym} @ ~${current_price:.2f} (≈${qty * current_price:,.2f})")
-        if place_order("buy", sym, qty):
-            buying_power -= qty * current_price
-            open_count += 1
-            orders_placed += 1
-            state["positions"][sym] = {
-                "entry": current_price,
-                "peak": current_price,
-                "opened_at": now_iso(),
-            }
-            save_state(state)
+            log(f"  → BUYING {qty} {sym} @ ~${current_price:.2f} "
+                f"(≈${qty * current_price:,.2f})  depth={depth:+.3f}")
+            if place_order("buy", sym, qty):
+                buying_power -= qty * current_price
+                open_count += 1
+                orders_placed += 1
+                state["positions"][sym] = {
+                    "entry": current_price,
+                    "peak": current_price,
+                    "opened_at": now_iso(),
+                }
+                save_state(state)
+        except Exception as e:
+            log(f"-- {sym}: BUY ERROR (skipped): {e}")
 
     log(f"=== Scan cycle complete: {orders_placed} new entry order(s) placed ===\n")
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        log(f"=== Cycle FATAL (logged, exiting cleanly): {e} ===")
+        log(traceback.format_exc())
+        sys.exit(0)

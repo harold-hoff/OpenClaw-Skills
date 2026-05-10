@@ -31,7 +31,11 @@ RAW="$(python3 skills/Sentiment-Trader/scripts/news-fetcher.py "$SYMBOL")"
 python3 skills/Sentiment-Trader/scripts/sentiment_score.py "$SYMBOL" "$RAW"
 ```
 
-**Companion strategy:** Mean-reversion Bollinger scans live under **`skills/Mean-Reversion/`**. Keep tickers aligned with `skills/Mean-Reversion/watchlist.default.txt` unless you intentionally separate universes. Cron jobs for sentiment vs mean-reversion should be **separate** so one failure does not block the other.
+**Companion strategy:** Mean-reversion Bollinger scans live under **`skills/Mean-Reversion/`**. Keep tickers aligned with `skills/Mean-Reversion/watchlist.default.txt` unless you intentionally separate universes.
+
+**Production:** Prefer the **`openclaw-trader`** Docker service (`skills/Mean-Reversion/trading_daemon.sh`): it runs **`run_cycle.sh` immediately after each mean-reversion pass**—sequential, no overlapping gateway cron. Disable duplicate sentiment/mean-reversion **`cron/jobs.json`** entries while that container runs.
+
+**Legacy / manual:** Separate cron jobs only if you are **not** using `openclaw-trader` (they must stay isolated so one failure does not block the other).
 
 **Optional confluence (does not replace either skill):** If both fire in the same session, you may require agreement (e.g. mean-reversion BUY only when sentiment signal is not BEARISH). That is **policy you layer on top** — do not delete or weaken either skill’s standalone rules.
 
@@ -44,9 +48,14 @@ python3 skills/Sentiment-Trader/scripts/sentiment_score.py "$SYMBOL" "$RAW"
 - ALPACA_PAPER=true
 
 ## Schedule
+
+**Recommended:** Driven by **`openclaw-trader`** — sentiment runs **every daemon cycle** during RTH (see Mean-Reversion skill / `trading_daemon.sh`). Roughly every **`TRADER_SLEEP_OPEN_SEC`** seconds between full MR+sentiment+EOD passes (default 75s).
+
+**Legacy cron (only if trader container is off):**
 - 09:15 America/New_York: Premarket scan (uses all sources including Alpha Vantage + NewsAPI)
 - Every 15 minutes 09:30–16:00 America/New_York: Standard cycle (Finnhub + Alpaca + Reddit only)
-- 15:45 America/New_York: Close all positions
+
+End-of-day flatten is handled by **`close_all_eod.sh`** from the same daemon (idempotent); standalone **15:45** close notes below apply to manual/cron workflows only.
 
 ---
 
